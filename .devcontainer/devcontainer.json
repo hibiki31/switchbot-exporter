@@ -1,0 +1,15 @@
+{
+	"name": "Python 3",
+	"image": "python:3-bullseye",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"charliermarsh.ruff",
+				"tamasfe.even-better-toml"
+			]
+		}
+	},
+	"forwardPorts": [ 9000 ],
+	"postCreateCommand": "./.devcontainer/create.sh"
+}

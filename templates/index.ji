@@ -1,0 +1,10 @@
+# TYPE vm_counter counter
+vm_counter {vm_metric[0]}
+# TYPE vm_cpus gauge
+vm_cpus {vm_metric[1]}
+# TYPE vm_memorys gauge
+vm_memorys {vm_metric[2]}
+# TYPE task_counter counter
+task_counter {task_metric[0]}
+# TYPE task_runtime gauge
+task_runtime {task_metric[1]}
